@@ -45,7 +45,6 @@ function focusTrap(modal) {
 function modalListener(){
   document.addEventListener('click', function(event) {
     let target = event.target;
-    console.log(target.getAttribute('data-bs-backdrop'))
     let close = target.closest('[data-bs-dismiss="modal"]');
     let modal = target.closest('[data-bs-toggle="modal"]');
     if (close) {
