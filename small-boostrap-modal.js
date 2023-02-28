@@ -59,7 +59,6 @@ function modalListener(){
       if (mouseDownOnModal) {
         let modal = target.closest('.modal');
         closeModal(modal.id)
-        mouseDownOnModal = false;
       }
     }
     mouseDownOnModal = false;
