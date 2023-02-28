@@ -11,7 +11,7 @@ data-bs-backdrop="false"<br>
 data-bs-toggle="modal"<br>
 data-bs-dismiss="modal"<br>
 
-Add to use:
+How to use:
 
 let mouseDownOnModal = false;<br>
 modalListener()<br>
